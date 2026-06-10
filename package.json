@@ -1,0 +1,12 @@
+{
+  "name": "virtuousit-site",
+  "version": "1.0.0",
+  "description": "Static site assets helper",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.4"
+  }
+}
+

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Virtuous IT Solutions Limited — Managed IT services, software delivery, and cloud consulting." />
+  <title>Virtuous IT Solutions Limited</title>
+  <!-- Google font for a cleaner tech look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="canonical" href="/" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <a href="#home" class="brand" aria-label="Virtuous IT Solutions home">Virtuous IT Solutions</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#clients" class="nav-link">Clients</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+      <div class="header-cta">
+        <a href="#contact" class="btn small">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    <section id="home" class="hero" tabindex="-1">
+      <div class="hero-inner container">
+        <div class="hero-grid">
+          <div>
+            <h1>Delivering reliable IT &amp; cloud services</h1>
+            <p class="lead">Small, expert-led teams focused on security, reliability and outcomes.</p>
+            <p class="cta">
+              <a href="#contact" class="btn">Get in touch</a>
+              <a href="#clients" class="btn outline">Our clients</a>
+            </p>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <img src="assets/images/graphics/hero-illustration.svg" alt="Decorative illustration" class="hero-svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section" aria-labelledby="team-heading">
+      <div class="container">
+        <h2 id="team-heading">Our Team</h2>
+        <p>Small, expert-led teams focused on security, reliability and outcomes.</p>
+        <div class="grid team-grid" role="list">
+          <article class="card" aria-label="Biju Sivanandan - CTO">
+            <picture>
+              <source srcset="assets/images/team/biju.webp" type="image/webp">
+              <img src="assets/images/team/biju.jpg" alt="Biju Sivanandan, Chief Technology Officer">
+            </picture>
+            <h3>Biju Sivanandan</h3>
+            <p class="role">Chief Technology Officer</p>
+          </article>
+          <article class="card" aria-label="Viaan Biju - Lead Developer">
+            <picture>
+              <source srcset="assets/images/team/viaan.webp" type="image/webp">
+              <img src="assets/images/team/viaan.jpg" alt="Viaan Biju, Lead Developer">
+            </picture>
+            <h3>Viaan Biju</h3>
+            <p class="role">Lead Developer</p>
+          </article>
+          <article class="card" aria-label="Jaseetha Rema - Operations">
+            <picture>
+              <source srcset="assets/images/team/jaseetha.webp" type="image/webp">
+              <img src="assets/images/team/jaseetha.jpg" alt="Jaseetha Rema, Head of Operations">
+            </picture>
+            <h3>Jaseetha Rema</h3>
+            <p class="role">Head of Operations</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="section alt" aria-labelledby="clients-heading">
+      <div class="container">
+        <h2 id="clients-heading">Clients</h2>
+        <p>Trusted by organisations across industries. Logos below are illustrative placeholders.</p>
+        <div class="grid clients-grid" role="list">
+          <div class="client-logo" role="listitem">
+            <picture>
+              <source srcset="assets/images/clients/client1.webp" type="image/webp">
+              <img src="assets/images/clients/client1.jpg" alt="Client 1 logo">
+            </picture>
+            <p class="client-name">Client 1</p>
+          </div>
+          <div class="client-logo" role="listitem">
+            <picture>
+              <source srcset="assets/images/clients/client2.webp" type="image/webp">
+              <img src="assets/images/clients/client2.jpg" alt="Client 2 logo">
+            </picture>
+            <p class="client-name">Client 2</p>
+          </div>
+          <div class="client-logo" role="listitem">
+            <picture>
+              <source srcset="assets/images/clients/client3.webp" type="image/webp">
+              <img src="assets/images/clients/client3.jpg" alt="Client 3 logo">
+            </picture>
+            <p class="client-name">Client 3</p>
+          </div>
+          <div class="client-logo" role="listitem">
+            <picture>
+              <source srcset="assets/images/clients/client4.webp" type="image/webp">
+              <img src="assets/images/clients/client4.jpg" alt="Client 4 logo">
+            </picture>
+            <p class="client-name">Client 4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact Us</h2>
+        <p>Fill out the form below or email us at <a href="mailto:bijumatprof@gmail.com">bijumatprof@gmail.com</a>.</p>
+        <form id="contactForm" class="form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" required></textarea>
+
+          <div class="form-actions">
+            <button type="reset" class="btn muted">Reset</button>
+            <button type="submit" id="sendBtn" class="btn"> <span class="spinner" aria-hidden="true"></span> <span class="btn-text">Send</span></button>
+          </div>
+        </form>
+        <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+       </div>
+     </section>
+
+    <!-- Privacy and Terms anchor targets so footer links resolve -->
+    <section id="privacy" class="section" aria-labelledby="privacy-heading">
+      <div class="container">
+        <h2 id="privacy-heading">Privacy</h2>
+        <p>We respect your privacy. This placeholder page will be updated with our privacy policy before launch.</p>
+      </div>
+    </section>
+
+    <section id="terms" class="section alt" aria-labelledby="terms-heading">
+      <div class="container">
+        <h2 id="terms-heading">Terms</h2>
+        <p>These are placeholder terms of use for Virtuous IT Solutions Limited. Final terms will be published here.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-columns">
+        <div class="footer-about">
+          <strong>Virtuous IT Solutions Limited</strong>
+          <p>Delivering secure, reliable digital services — managed IT, software delivery and cloud consulting.</p>
+        </div>
+        <div class="footer-links-col">
+          <a href="#privacy">Privacy</a>
+          <a href="#terms">Terms</a>
+        </div>
+        <div class="footer-contact">
+          <p>Email: <a href="mailto:bijumatprof@gmail.com">bijumatprof@gmail.com</a></p>
+        </div>
+      </div>
+      <small class="footer-copy">© <span id="year"></span> Virtuous IT Solutions Limited</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

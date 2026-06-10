@@ -1,0 +1,12 @@
+{
+  "name": "virtousit-sendemail-fn",
+  "version": "1.0.0",
+  "description": "Azure Function to send contact emails via Mailjet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-mailjet": "^3.3.3"
+  }
+}
