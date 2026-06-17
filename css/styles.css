@@ -74,9 +74,8 @@ main{padding-top:calc(var(--header-height) + 0.5rem)}
 /* Clients: uniform boxes, muted grayscale turning color on hover */
 .clients-grid{grid-template-columns:repeat(auto-fit,minmax(220px,280px));justify-content:center;align-items:center}
 .client-logo{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.5rem;padding:1.5rem;background:#fff;border-radius:12px;transition:transform .14s ease,filter .14s ease;box-shadow:0 6px 18px rgba(2,6,23,.04)}
-.client-logo img{display:block;width:200px;height:90px;object-fit:contain;filter:grayscale(100%) contrast(.9) brightness(.98)}
+.client-logo img{display:block;width:200px;height:90px;object-fit:contain}
 .client-logo:hover{transform:translateY(-6px)}
-.client-logo:hover img{filter:none}
 .client-name{margin-top:.5rem;font-size:.95rem;color:var(--muted);text-align:center;font-weight:700}
 
 /* Form and buttons */
