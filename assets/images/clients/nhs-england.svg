@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" fill="none">
+  <!-- NHS Blue background shape -->
+  <rect x="10" y="30" width="180" height="100" rx="4" fill="#005EB8"/>
+  <!-- NHS text -->
+  <text x="100" y="95" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="56" fill="#FFFFFF" letter-spacing="2">NHS</text>
+  <!-- England text -->
+  <text x="290" y="90" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="32" fill="#005EB8">England</text>
+</svg>
+

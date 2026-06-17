@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" fill="none">
+  <!-- William Hill shield/crest shape -->
+  <path d="M60 30 L60 110 Q60 140 90 140 L110 140 Q140 140 140 110 L140 30 Z" fill="#1B3668"/>
+  <!-- WH monogram inside shield -->
+  <text x="100" y="100" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="52" fill="#FFFFFF">WH</text>
+  <!-- William Hill text -->
+  <text x="270" y="75" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="30" fill="#1B3668">William</text>
+  <text x="270" y="115" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="30" fill="#1B3668">Hill</text>
+</svg>
+

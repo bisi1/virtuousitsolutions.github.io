@@ -72,9 +72,9 @@ main{padding-top:calc(var(--header-height) + 0.5rem)}
 .card .role{color:var(--muted);font-size:.95rem;margin-top:.4rem}
 
 /* Clients: uniform boxes, muted grayscale turning color on hover */
-.clients-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));align-items:center}
-.client-logo{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.5rem;padding:1rem;background:#fff;border-radius:12px;transition:transform .14s ease,filter .14s ease;box-shadow:0 6px 18px rgba(2,6,23,.04)}
-.client-logo img{display:block;width:160px;height:80px;object-fit:contain;filter:grayscale(100%) contrast(.9) brightness(.98)}
+.clients-grid{grid-template-columns:repeat(auto-fit,minmax(220px,280px));justify-content:center;align-items:center}
+.client-logo{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.5rem;padding:1.5rem;background:#fff;border-radius:12px;transition:transform .14s ease,filter .14s ease;box-shadow:0 6px 18px rgba(2,6,23,.04)}
+.client-logo img{display:block;width:200px;height:90px;object-fit:contain;filter:grayscale(100%) contrast(.9) brightness(.98)}
 .client-logo:hover{transform:translateY(-6px)}
 .client-logo:hover img{filter:none}
 .client-name{margin-top:.5rem;font-size:.95rem;color:var(--muted);text-align:center;font-weight:700}
@@ -109,7 +109,7 @@ main{padding-top:calc(var(--header-height) + 0.5rem)}
   .hero-grid{grid-template-columns:1fr}
   .hero-visual{order:2}
   .footer-columns{grid-template-columns:1fr}
-  .client-logo img{width:130px;height:64px}
+  .client-logo img{width:160px;height:72px}
   .footer-columns{grid-template-columns:1fr;gap:1rem}
   .footer-copy{text-align:center}
   .header-cta{display:none}
